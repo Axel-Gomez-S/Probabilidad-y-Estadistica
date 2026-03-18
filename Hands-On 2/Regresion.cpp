@@ -10,7 +10,6 @@ void Regresion::calcularCoeficientes(const std::vector<double>& x, const std::ve
     int n = x.size();
     double suma_x = 0, suma_y = 0, suma_xy = 0, suma_x_cuadrado = 0;
 
-    // Calculamos las sumatorias necesarias para la fórmula de mínimos cuadrados
     for (int i = 0; i < n; i++) {
         suma_x += x[i];
         suma_y += y[i];
