@@ -1,5 +1,5 @@
-#ifndef Regresion_H
-#define Regresion_H
+#ifndef Regresion_Hpp
+#define Regresion_Hpp
 #include <vector>
 #include <string>
 
